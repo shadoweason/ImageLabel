@@ -8,9 +8,11 @@
 import cv2
 from tkinter import *
 import threading, os
+from enum import Enum
 import tkinter.filedialog as filedialog
 from tkinter.ttk import Combobox, Treeview
 from tkinter.messagebox import showwarning, askyesno
+
 
 
 def get_files_from_dir(dir, wildcard):
